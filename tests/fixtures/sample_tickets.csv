@@ -1,0 +1,13 @@
+ticket_id,description,source,customer_region
+T-001,DNS无法解析，能ping通IP但域名访问失败,syslog,华北
+T-002,PPPoE拨号失败，提示691认证错误，账号密码确认正确,hotline,华东
+T-003,办公区WiFi信号弱，RSSI低于-75dBm，SINR仅2dB,app,华南
+T-004,ping网关出现15%丢包，网络抖动严重,monitor,华北
+T-005,用户反馈打开网页延迟超过5秒，ping延迟超过200ms,hotline,西南
+T-006,网络每隔10分钟自动断开，重新连接后恢复正常,email,华东
+T-007,VLAN配置错误，ACL规则导致部分网段无法通信，NAT映射失效,ops,华中
+T-008,光猫LOS红灯闪烁，ONT注册失败，设备告警指示灯异常,hotline,华南
+T-009,办公楼整层断网，运营商确认区域骨干网光纤故障,monitor,西南
+T-010,100M带宽测速只有8M，下载速率远低于签约速率,app,东北
+T-011,用户自行更换路由器后无法上网，非运营商设备问题,hotline,华北
+T-012,网络不好,email,华南

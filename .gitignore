@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+*.egg
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# Environment
+.env
+*.local
+
+# IDE / Claude
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep structure, ignore large files)
+data/*.db
+data/*.sqlite
+data/*.csv
+data/*.json
+data/exports/*
+data/uploads/*
+!data/.gitkeep
+!data/exports/.gitkeep
+!data/uploads/.gitkeep
