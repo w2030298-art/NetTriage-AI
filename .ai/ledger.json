@@ -1,0 +1,32 @@
+{
+  "schema_version": "wkstruc-ledger/v9",
+  "task_id": "nettriage-v1",
+  "state": "NEEDS_REVIEW",
+  "progress": {
+    "done": 47,
+    "total": 47,
+    "label": "47 / 47 steps"
+  },
+  "last_run": {
+    "at": "2026-05-06",
+    "agent": "dispatch",
+    "summary": "Module J Steps 44-47 完成：sample_tickets.csv、E2E 测试、Dockerfile、docker-compose、README。ruff 零告警，mypy 零错误，157 测试全通过，94% 覆盖率。"
+  },
+  "validation": {
+    "status": "PASS",
+    "commands": [
+      "uv run ruff check .",
+      "uv run mypy src",
+      "uv run pytest --cov=nettriage"
+    ],
+    "summary": "ruff 零告警，mypy 零错误 (49 files)，157 passed, 94% coverage"
+  },
+  "open_items": [
+    "Step 41: Batch API (batches.py) — scope:review",
+    "Step 47: Final quality gate — scope:review (all checks passed, ready for human sign-off)",
+    "ClassifyResponse.record_id 暂时使用占位值 0"
+  ],
+  "checkpoint_id": "checkpoint-v0",
+  "last_review_report": null,
+  "consumed_inbox": []
+}

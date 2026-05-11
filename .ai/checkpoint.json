@@ -1,0 +1,7 @@
+{
+  "schema_version": "wkstruc-checkpoint/v9",
+  "checkpoint_id": "checkpoint-v0",
+  "created_at": "2026-05-09",
+  "ledger_task_id": "nettriage-v1",
+  "notes": "v9 migration checkpoint. All 47/47 steps complete, quality gates passed, pending human review."
+}
